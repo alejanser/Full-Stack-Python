@@ -23,7 +23,7 @@ El sitio ha sido desarrollado empleando el lenguaje de marcado de hipertexto HTM
 ## Desarrolladores
 Para la creacion del presente proyecto se formo un equipo conformado por cuatro personas, Mauro Bustos, Ricardo R. Rocha, Sandra Abrego y Alejandro Sergio Raimundo, quien suscribe.
 
-Es de destacar que los tres primeros participantes, en el orden indicado fueron retirandose, dejando de comunicarse de manera individual y voluntaria, esgrimiendo diversas razones por las que no podian asistir a los llamados a las diferentes reuniones pautadas, por lo que el presenta proyecto ha sido desarrollado en su totalidad por Alejandro Sergio Raimundo.
+Es de destacar que los tres primeros participantes, en el orden indicado fueron retirandose, dejando de comunicarse de manera individual y voluntaria, esgrimiendo diversas razones por las que no podian asistir a los llamados a las diferentes reuniones pautadas, por lo que el presente proyecto ha sido desarrollado en su totalidad por Alejandro Sergio Raimundo.
 
 ## Hosting
 El proyecto se encuentra publicado en la plataforma GitHub pages y se accesa mediante el link 

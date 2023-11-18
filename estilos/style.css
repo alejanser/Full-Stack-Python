@@ -1,0 +1,226 @@
+*{
+    padding: 0 auto;
+    margin: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.contenedor {
+    background-color: rgb(180, 162, 126);
+    font-family: 'Roboto', sans-serif;
+	
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5, auto);
+
+	grid-template-areas: "header"
+						 "menu"
+						 "contenido"
+                         "contenido"
+						 "footer";
+}
+
+.contenedor .header {
+	grid-area: header;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+#prin {
+    padding: 5px 10px 5px 0;
+    border-radius: 15px;
+}
+
+#serv, #qui, #pro, #con {
+    border-radius: 10px;
+}
+
+.contenedor .bloque1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*-------------------------------------------*/
+.contenedor .menu {
+	grid-area: menu;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #444;
+    background-color: rgb(250, 201, 152);
+}
+
+#logo{
+    margin-left: 10px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0;
+    float: right;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*------------------------------------------*/
+.contenedor .contenido {
+	grid-area: contenido;
+}
+
+.bloque1 img {
+    border-radius: 10px;
+}
+
+.bloque1 p {
+    padding-right: 15px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+.imag{
+    display: block;
+    margin:auto;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 15px 0 15px;
+}
+
+video {
+    border-radius: 10px;
+}
+
+/*------------------------------------------*/
+.contenedor .footer {
+	grid-area: footer;
+    
+}
+
+#contacto {
+    text-align: center;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.redes a{
+    font-size: 30px;
+}
+.redes a:hover{
+    transform: scale(1.2);
+}
+.facebook{
+    background-color: #ffffff;
+    color: blue;
+}
+.instagram{
+    background-color: #ffffff;
+    color: #e4405f;
+}
+.whatsapp{
+    background-color: #ffffff;
+    color: green;
+}
+.twitter{
+    background-color: #ffffff;
+    color: #1da1f2;
+}
+/*-------------------------------------------------*/
+
+.cent{
+    text-align: center;
+}
+.m1{
+    margin-left: 20px;
+}
+.m2{
+    margin-left: 40px;
+}
+/*Formulario de contacto---------------------*/
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(250, 201, 152, 0.6);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+form h2 {
+    color: #000;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: rgb(195, 122, 70);
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        min-width: 50px;
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0;
+        min-width: 50px;
+        flex-direction: column;
+    }
+
+}
+
